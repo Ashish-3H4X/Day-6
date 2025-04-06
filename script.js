@@ -23,3 +23,16 @@ return (5/9)*(fahrenheit-32);<br>
        Result :
        ${value2}
       `
+      
+  function tocelsius(fahrenheit){
+    return (5/9)*(fahrenheit-32);
+     }
+      let value3 = tocelsius;
+       document.getElementById('demo3').innerHTML=` 
+    function tocelsius(fahrenheit){ <br>
+    return (5/9)*(fahrenheit-32);<br>
+     }<br>
+      let value = tocelsius; ------ <br>
+       Result :
+       ${value3}
+      `

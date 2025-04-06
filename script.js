@@ -36,3 +36,19 @@ return (5/9)*(fahrenheit-32);<br>
        Result :
        ${value3}
       `
+
+      function tocelsius(fahrenheit){
+        return (5/9)*(fahrenheit-32);
+         }
+          let value5 = tocelsius(77);
+          let text = "The Temperature  is "+value5+" celsius"
+           document.getElementById('demo4').innerHTML=` 
+      
+      function tocelsius(fahrenheit){ <br>
+        return (5/9)*(fahrenheit-32);<br>
+         }<br>
+          let value5 = tocelsius(77);<br>
+          let text = "The Temperature  is "+value5+" celsius"<br>
+           Result :
+           ${value5}
+          `
